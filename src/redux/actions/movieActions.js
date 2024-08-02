@@ -11,7 +11,7 @@ export const fetchMovies = (title) => async (dispatch) => {
     }
   } catch (error) {
     console.error("Error fetching movies:", error);
-    // Handle the error appropriately, e.g., dispatch an error action or set an error state
+    // Handle error
   }
 };
 
@@ -25,7 +25,7 @@ export const fetchMovieDetails = (id) => async (dispatch) => {
     }
   } catch (error) {
     console.error("Error fetching movie details:", error);
-    // Handle the error appropriately, e.g., dispatch an error action or set an error state
+    // Handle error
   }
 };
 

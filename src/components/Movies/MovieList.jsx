@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchMovies, fetchMovieDetails } from "../../redux/actions/movieActions";
+import { fetchMovies} from "../../redux/actions/movieActions";
 import MovieDetail from "./MovieDetail";
 
 const MovieList = () => {
