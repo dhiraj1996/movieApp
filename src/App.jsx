@@ -15,10 +15,10 @@ const App = () => {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" exact element={<MovieList/>} />
-          <Route path="/login" exact element={<Login/>} />
-          <Route path="/register" exact element={<Register/>} />
-          <Route path="/watchlist" exact element={<Watchlist/>} />
+          <Route path="/" element={<MovieList/>} />
+          <Route path="/login" element={<Login/>} />
+          <Route path="/register" element={<Register/>} />
+          <Route path="/watchlist" element={<Watchlist/>} />
         </Routes>
       </Router>
     </Provider>
