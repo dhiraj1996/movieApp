@@ -23,8 +23,8 @@ const MovieList = () => {
           Browse movies, add them to watchlists and share them with friends.
         </p>
         <p>
-          Just click the ---- to add a movie, the poster to see more details
-          click to mark the movies as watched
+          Just click the <span className="bg-red-400">add to watchlist</span> , the poster to see more details
+          click to mark the movies as watched.
         </p>
       </div>
       <form
